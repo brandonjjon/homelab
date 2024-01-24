@@ -18,6 +18,7 @@ variable "zerotier_central_token" {
 variable "ntfy" {
   type = object({
     url      = string
+    topic    = string
     username = string
     password = string
   })
